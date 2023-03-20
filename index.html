@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 2023</title><!--Titulo de la pestaña-->
+    <link rel="icon" href="/IMG/descarga.png"><!--Icono de la barra-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Barra de navegacion -->
+            <a href="#">Nosotros</a> <!-- Enlace-->
+            <a href="#">Contacto</a> <!-- Enlace -->
+            <a href="#">Productos</a> <!-- Enlace -->
+            <a href="https://www.youtube.com" target="_blank">You Tube</a> <!-- target ="_blank genera que el enlace se abra en otra pagina y no nos cierre la nuestra" -->
+        </nav>
+    </header>
+    <main>
+        <h1>Aprendiendo HTML</h1>
+        <h2>Lenguaje de marcado de HiperTexto</h2>
+        <a href="index.html#texto-codigo">Etiqueta code</a> <!--Este enlace lleva a la etq mas abajo esto es una etq ancla-->
+        <h3>Lenguaje de programacion mas utilizados</h3>
+        <ol>
+            <!-- Lista ordenada (muestra numeros) -->
+            <li>PHYTON</li>
+            <li>JAVASCRIPT</li>
+            <li>JAVA</li>
+        </ol>
+        <ul>
+             <!-- Lista desordenada (muestra viñetas)-->
+             <li>PHYTON</li>
+             <li>JAVASCRIPT</li>
+             <li>JAVA</li>
+        </ul>
+        <p>
+            Palabras en <b>Negrita</b>, <i>Cursiva</i>,
+            <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>O, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small>
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, perspiciatis praesentium. Totam nostrum nesciunt error voluptates laboriosam nam, eveniet officia, omnis quia hic quibusdam earum repudiandae dolores maiores dolorum adipisci!</p>
+        <p>
+            <strong>Este texto es importante</strong>, <em>Este texto hace enfasis</em>
+        </p>
+        <pre><!-- Esta etiqueta le da el mismo orden que le dimos-->
+            <p>Tareas por Hacer:
+                - No faltar a clases.
+                - Repasar la teoria.
+                - Practicar ejercicios.
+
+                En la casa
+                - Cortar el pasto.
+                - Hacer las compras.
+                - Pagar las cuentas.                
+            </p>
+        </pre>
+        <p id="texto-codigo">
+            <!--Esta etq esta enlazada mas arriba-->
+            <code>Este texto esta en formato de codigo</code>
+        </p>
+        <p>
+            <img src="IMG/tech01.jpg" alt="imagen de moto" width="300px" height="300px">
+            <!--alt = descripcion de la imagen-->
+            <!--width = ancho, weight = alto en pixeles-->
+
+        <br> <!--etq ordena uno debajo de otro-->
+            <p>Video de la neumatica</p>
+            <video src="media/viaje de la neumatica.mp4" controls preload="auto" width="500px" height="200px"></video>
+            <!--controls preload = muestra controles del video-->
+    </main>
+
+</body>
+</html>
